@@ -72,27 +72,27 @@
 * 데이터 변환 및 조작하는 함수를 제공하는 분석 도구
 
 ##### 기타
-Apache Mahout : 스케일러블한 머신 러닝 프레임워크
-Apache Giraph : 빅데이터 그래프 프로세싱
-Apache Pig : 대용량 데이터 분석 플랫폼
-Apache Hive : 데이터 웨어하우스
-Apache Drill : 대규모 데이터의 SQL 분석 제공
-Apache Impala : SQL 병렬 처리 엔진 클러스터 관리 도구
-Apache Ambari : 클러스터 관리 도구 (프로비저닝, 관리, 모니터링 등)
-하둡과 다른 시스템 간 데이터 전송하는 인터페이스 도구
-Apache Sqoop : 하둡과 다른 데이터 저장소 간 대용량 데이터 전송
-Apache Flume : 대용량 로그 데이터를 수집
-Apache Chukwa : 대용량 로그 데이터 수집 및 분석
-Flume comparison to Chukwa
-Apache Storm : 실시간 데이터 처리
-기본적인 데이터 스토리지, 동기화, 스케줄링 등을 제공하는 인프라도구
-Apache Oozie : 워크플로우 스케쥴러
-Apache HBase : 비관계형(non-relational) 분산(distributed) 데이터베이스
-Apache Zookeeper : 분산된 시스템을 관리하는 코디네이션 서비스(coordination service)
-스파크로 대체할 수 있는 기능
-그래프 프로세싱 Giraph -> Spark GraphX
-머신러닝 Mahout -> Spark MLlib
-실시간 데이터 처리 Storm -> Spark Streaming (2.2.1 이하는 완벽 대체 불가)
-데이터 분석 Pig, 데이터 전송 Sqoop -> Spark Core 와 Spark SQL 로 대체
-SQL 관련 Impala, Drill -> Spark SQL 을 포괄하는 기능으로 함께 사용할 수 있음
-인프라 관련 도구는 대체할 수 없음
+Apache Mahout : 스케일러블한 머신 러닝 프레임워크  
+Apache Giraph : 빅데이터 그래프 프로세싱  
+Apache Pig : 대용량 데이터 분석 플랫폼  
+Apache Hive : 데이터 웨어하우스  
+Apache Drill : 대규모 데이터의 SQL 분석 제공  
+Apache Impala : SQL 병렬 처리 엔진 클러스터 관리 도구  
+Apache Ambari : 클러스터 관리 도구 (프로비저닝, 관리, 모니터링 등)  
+하둡과 다른 시스템 간 데이터 전송하는 인터페이스 도구  
+Apache Sqoop : 하둡과 다른 데이터 저장소 간 대용량 데이터 전송  
+Apache Flume : 대용량 로그 데이터를 수집  
+Apache Chukwa : 대용량 로그 데이터 수집 및 분석  
+Flume comparison to Chukwa  
+Apache Storm : 실시간 데이터 처리  
+기본적인 데이터 스토리지, 동기화, 스케줄링 등을 제공하는 인프라도구  
+Apache Oozie : 워크플로우 스케쥴러  
+Apache HBase : 비관계형(non-relational) 분산(distributed) 데이터베이스  
+Apache Zookeeper : 분산된 시스템을 관리하는 코디네이션 서비스(coordination service)  
+스파크로 대체할 수 있는 기능  
+그래프 프로세싱 Giraph -> Spark GraphX  
+머신러닝 Mahout -> Spark MLlib  
+실시간 데이터 처리 Storm -> Spark Streaming (2.2.1 이하는 완벽 대체 불가)  
+데이터 분석 Pig, 데이터 전송 Sqoop -> Spark Core 와 Spark SQL 로 대체  
+SQL 관련 Impala, Drill -> Spark SQL 을 포괄하는 기능으로 함께 사용할 수 있음  
+인프라 관련 도구는 대체할 수 없음  
