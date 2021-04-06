@@ -6,3 +6,4 @@
   - `su - ruser01` 후 ruser01 접속
 - root directory 이동
   - `ls ~` 
+- 해당 디렉토리 밑 모든 파일 권한 변경
