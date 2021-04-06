@@ -33,18 +33,18 @@
 - Document-oriented storage : MongoDB는 database > collections > documents 구조로 document는 key-value형태의 BSON(Binary JSON)으로 되어있다.
 - Full Index Support : 다양한 인덱싱을 제공한다.
 - Single Field Indexes : 기본적인 인덱스 타입
-Compound Indexes : RDBMS의 복합인덱스 같은 거
-Multikey Indexes : Array에 미챙되는 값이 하나라도 있으면 인덱스에 추가하는 멀티키 인덱스
-Geospatial Indexes and Queries : 위치기반 인덱스와 쿼리
-Text Indexes : String에도 인덱싱이 가능
-Hashed Index : Btree 인덱스가 아닌 Hash 타입의 인덱스도 사용 가능
-Replication& High Availability : 간단한 설정만으로도 데이터 복제를 지원. 가용성 향상.
-Auto-Sharding : MongoDB는 처음부터 자동으로 데이터를 분산하여 저장하며, 하나의 컬렉션처럼 사용할 수 있게 해준다. 수평적 확장 가능
-Querying(documented-based query) : 다양한 종류의 쿼리문 지원. (필터링, 수집, 정렬, 정규표현식 등)
-Fast In-Pace Updates : 고성능의 atomic operation을 지원
-Map/Reduce : 맵리듀스를 지원.(map과 reduce 함수의 조합을 통해 분산/병렬 시스템 운용 지원, 하둡처럼 MR전용시스템에 비해서는 성능이 떨어진다)
-GridFS : 분산파일 저장을 MongoDB가 자동으로 해준다. 실제 파일이 어디에 저장되어 있는지 신경 쓸 필요가 없고 복구도 자동이다.
-Commercial Support : 10gen에서 관리하는 오픈소스
+- Compound Indexes : RDBMS의 복합인덱스 같은 거
+- Multikey Indexes : Array에 미챙되는 값이 하나라도 있으면 인덱스에 추가하는 멀티키 인덱스
+- Geospatial Indexes and Queries : 위치기반 인덱스와 쿼리
+- Text Indexes : String에도 인덱싱이 가능
+- Hashed Index : Btree 인덱스가 아닌 Hash 타입의 인덱스도 사용 가능
+- Replication& High Availability : 간단한 설정만으로도 데이터 복제를 지원. 가용성 향상.
+- Auto-Sharding : MongoDB는 처음부터 자동으로 데이터를 분산하여 저장하며, 하나의 컬렉션처럼 사용할 수 있게 해준다. 수평적 확장 가능
+- Querying(documented-based query) : 다양한 종류의 쿼리문 지원. (필터링, 수집, 정렬, 정규표현식 등)
+- Fast In-Pace Updates : 고성능의 atomic operation을 지원
+- Map/Reduce : 맵리듀스를 지원.(map과 reduce 함수의 조합을 통해 분산/병렬 시스템 운용 지원, 하둡처럼 MR전용시스템에 비해서는 성능이 떨어진다)
+- GridFS : 분산파일 저장을 MongoDB가 자동으로 해준다. 실제 파일이 어디에 저장되어 있는지 신경 쓸 필요가 없고 복구도 자동이다.
+- Commercial Support : 10gen에서 관리하는 오픈소스
 
 ### MongoDB 장점
 - Flexibility : Schema-less라서 어떤 형태의 데이터라도 저장할 수 있다.
